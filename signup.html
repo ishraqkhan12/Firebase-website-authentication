@@ -73,6 +73,7 @@ let RegisterUser = evt => {
             // Signed up 
             const user = userCredential.user;
             console.log(user);
+            window.location.pathname = './index.html';
             alert(`Congratulations you have successfully sign up with ${user.email}`)
             
             // ...

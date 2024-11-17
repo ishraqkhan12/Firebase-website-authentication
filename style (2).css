@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#b80a47,#900636);
+    padding: 0 !important;
+    position: sticky;
+    top: 0px;
+}
+.nav-item:hover{
+    background-color: rgb(174, 169, 170);
+}
+
+.navbar-brand img{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+    
+}
+
+
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    float: right;
+  
+}
+.fa-bars{
+    color: white;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*---------- banner section---------- */
+
+
+#banner {
+    background-color: rgb(243, 230, 232);
+    background-image: linear-gradient(to right,#b80a47,#900636);
+    color: white;
+    padding-top: 5%;
+}
+.promo-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight:600;
+    margin-top: 100px;
+    
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#banner a img{
+    color: black;
+}
+.bottom-img{
+    width: 100%;
+}
+
+
+
+
+    
+
+/* ----------services section-------- */
+
+#services{
+     padding: 90px;
+
+}
+
+#services h4{
+    font-weight: 500;
+}
+.service-img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+     font-weight: 540;
+     padding-bottom: 80px;
+}
+.title::before{
+    content:' ';
+    background-color: #900636;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+
+.title::after{
+    content:' ';
+    background-color: #900636;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: block;
+    transform: translateY(17px);
+}
+
+/* ------------------About-us section------------- */
+
+#About-us{
+    padding: 90px;
+    background-color: rgb(250, 247, 247);
+}
+.image1{
+    height: 80%;    
+} 
+
+.candle{
+    overflow: hidden;
+}
+#About-us li{
+    line-height: 40px;
+    font-size: larger;
+}
+ /* ---------------------testimonials------------- */
+#testimonials{
+    margin: 80px 0px;
+}
+
+#testimonials img{
+    margin: 10px 0px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonials{
+    border-left: 3px solid #900636;
+    margin: 50px 0px;
+
+}
+
+/* --------------contact -------------------------- */
+
+#contact{
+    padding: 100px;
+    background-color: rgb(250, 247, 247);
+}
+
+.social-icons{
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.social-icons img{
+   width: 70px;
+   transition: 0.5s;
+}
+
+.social-icons a{
+   margin-left: 10px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-20px);
+}
+
+/* ------------- Footer Section ----------------------- */
+
+#footer{
+    background-image: linear-gradient(to right, #b80a47,#900636);
+}
+
+.footer-img{
+    width: 100%;
+
+}
+.footer-box{
+    padding: 20px;
+    color: white;
+}
+.image-fluid{
+    width: 120px;
+    padding-bottom: 20px;
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    max-width: 250px;
+    margin: 25px 0px;
+}
+.footer-box .btn-primary{
+    background-image: linear-gradient(to right, #b80a47, #900636);
+    box-shadow: none;
+    border: none;
+}

@@ -80,8 +80,10 @@ let logInUser = evt => {
             // Signed up 
             const user = userCredential.user;
             console.log(user);
+            window.location.pathname = './index.html';
+
             alert(`Congratulations, you have successfully logged in with ${user.email}`)
-            window.location.pathname = './welcome.html'
+            // window.location.pathname = './welcome.html'
             
             // ...
         })
